@@ -47,6 +47,7 @@ API
   model.format('api_v1', function (err, output) {
     console.log(output);
   });
+  ...
 ```
 
 I hope that piece of code is good enough to illustrate. I recommend using some kind of async flow control to create more advanced formats.
