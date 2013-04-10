@@ -1,0 +1,21 @@
+{
+  "name": "mongoose-format",
+  "version": "1.0.1",
+  "description": "A Mongoose plugin that enables you to produce formatted output of your instantiated models.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hallas/mongoose-format.git"
+  },
+  "keywords": [
+    "mongoose",
+    "json",
+    "api"
+  ],
+  "author": "Christoffer Hallas",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
