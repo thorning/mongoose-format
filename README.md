@@ -26,12 +26,9 @@ API
 
   schema.plugin(formatPlugin);
   
-  schema.addFormat('api_v1', function (done) {
-    return {
-      field: value,
-      field: method()
-    };
-  });
+  schema.methods.someMethod = function () {
+    return this.value;
+  };
   ...
   
   // model.js
@@ -40,6 +37,14 @@ API
   
   // create a model based on that schema
   var Model = mongoose.model('Schema', schema);
+  
+  // let's add a format
+  schema.addFormat('api_v1', function (done) {
+    return {
+      fieldA: this.value,
+      fieldB: this.some_method()
+    };
+  });
   
   // instantiate our model
   var model = new Model({ ... });
