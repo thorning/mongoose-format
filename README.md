@@ -39,7 +39,7 @@ API
   var Model = mongoose.model('Schema', schema);
   
   // let's add a format
-  schema.addFormat('api_v1', function (done) {
+  Model.addFormat('api_v1', function (done) {
     return {
       fieldA: this.value,
       fieldB: this.some_method()

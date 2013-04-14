@@ -1,6 +1,6 @@
 {
   "name": "mongoose-format",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Mongoose plugin that enables you to produce formatted output of your instantiated models.",
   "main": "index.js",
   "scripts": {
