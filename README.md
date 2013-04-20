@@ -40,7 +40,7 @@ API
   
   // let's add a format
   Model.addFormat('api_v1', function (done) {
-    var foramt = {
+    var format = {
       fieldA: this.value,
       fieldB: this.some_method()
     };
