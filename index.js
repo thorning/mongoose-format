@@ -1,1 +1,1 @@
-module.exports = require('./lib/mongoose-format');
+module.exports = exports = require('./lib/mongoose-format');

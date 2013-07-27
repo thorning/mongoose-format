@@ -17,5 +17,8 @@
   ],
   "author": "Christoffer Hallas",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mongoose": "~3.6.15"
+  }
 }
