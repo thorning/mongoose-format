@@ -1,5 +1,5 @@
-var mongoose      = require('mongoose'),
-    format_plugin = require('../');
+var mongoose      = require('mongoose');
+var format_plugin = require('../');
 
 var schema = new mongoose.Schema({
   name : { first: String, last: String },
